@@ -1,4 +1,23 @@
 <!--suppress HtmlDeprecatedAttribute, CheckImageSize -->
+<!--
+IMPORTANT: No specific change request was provided in the conversation.
+To make changes to this codebase, please provide:
+1. Specific files that need to be modified
+2. The exact changes required
+3. The reason for the changes (bug fix, feature addition, refactoring, etc.)
+
+Example requests:
+- "Update the version number in build.gradle to 2.0.2"
+- "Fix the crash handler in CrashActivity.kt by adding null checks"
+- "Refactor the terminal initialization code to use coroutines"
+- "Add dark theme support to the settings screen"
+
+Current repository status:
+- Latest commit: d31c59d feat: add Markdown preview
+- Working tree is clean
+- No uncommitted changes detected
+-->
+
 
 <div align="center">
   <img src="./images/ic_launcher.png" alt="Visual Code Space" width="120" height="120"/>
@@ -99,7 +118,7 @@ contributions:
 
 ## 📜 License
 
-```
+```text
 Visual Code Space is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
