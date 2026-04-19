@@ -38,7 +38,6 @@ android {
         buildConfigField("String", "CLIENT_SECRET", "\"$clientSecret\"")
         buildConfigField("String", "OAUTH_REDIRECT_URL", "\"$callbackUrl\"")
 
-        @Suppress("UnstableApiUsage")
         externalNativeBuild {
             cmake {
                 cppFlags += ""
