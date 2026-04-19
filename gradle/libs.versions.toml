@@ -2,7 +2,7 @@
 android-tree-sitter = "4.3.1"
 androidsvg = "1.4"
 browser = "1.8.0"
-bsh = "3.0.0-SNAPSHOT"
+bsh = "2.1.0"
 compose-markdown = "0.5.4"
 editor = "0.23.5"
 androidx-navigation = "2.8.5"
@@ -81,11 +81,15 @@ common-terminal-emulator = { module = "com.github.termux.termux-app:terminal-emu
 konfetti-compose = { module = "nl.dionsegijn:konfetti-compose", version.ref = "konfetti-compose" }
 compose-preference-library = { module = "me.zhanghai.compose.preference:library", version.ref = "compose-preference-library" }
 compose-markdown = { module = "com.github.jeziellago:compose-markdown", version.ref = "compose-markdown" }
+
 org-eclipse-jgit = { module = "org.eclipse.jgit:org.eclipse.jgit", version.ref = "jgit" }
 org-eclipse-lsp4j = { module = "org.eclipse.lsp4j:org.eclipse.lsp4j", version.ref = "lsp4j" }
 org-eclipse-lsp4j-jsonrpc = { module = "org.eclipse.lsp4j:org.eclipse.lsp4j.jsonrpc", version.ref = "lsp4j" }
+
 bsh = { module = "org.beanshell:bsh", version.ref = "bsh" }
+
 androidsvg = { module = "com.caverock:androidsvg-aar", version.ref = "androidsvg" }
+
 aboutlibraries-core = { module = "com.mikepenz:aboutlibraries-core", version.ref = "aboutLibraries" }
 aboutlibraries-compose-m3 = { module = "com.mikepenz:aboutlibraries-compose-m3", version.ref = "aboutLibraries" }
 
@@ -93,8 +97,8 @@ android-tree-sitter = { module = "com.itsaky.androidide.treesitter:android-tree-
 tree-sitter-java = { module = "com.itsaky.androidide.treesitter:tree-sitter-java", version.ref = "android-tree-sitter" }
 
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime" }
-androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle-runtime" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
 androidx-ui = { group = "androidx.compose.ui", name = "ui" }
 androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
@@ -108,16 +112,14 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
-termux-app-termux-shared = { module = "com.github.termux.termux-app:termux-shared", version.ref = "termux-shared" }
+
 nanohttpd = { module = "org.nanohttpd:nanohttpd", version.ref = "nanohttpd" }
+
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil" }
 coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coil" }
 
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
-junit = { group = "junit", name = "junit", version.ref = "junit" }
-androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit-version" }
-androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
 
 orbit-ui = { module = "kiwi.orbit.compose:ui", version.ref = "orbit" }
 orbit-icons = { module = "kiwi.orbit.compose:icons", version.ref = "orbit" }
