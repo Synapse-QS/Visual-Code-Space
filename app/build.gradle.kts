@@ -75,7 +75,9 @@ android {
         }
     }
 
-    compileOptions { isCoreLibraryDesugaringEnabled = true }
+    compileOptions {
+        isCoreLibraryDesugaringEnabled = true
+    }
 
     packaging {
         resources.excludes.addAll(
@@ -87,7 +89,9 @@ android {
             )
         )
 
-        jniLibs { useLegacyPackaging = true }
+        jniLibs {
+            useLegacyPackaging = true
+        }
     }
 
     lint {
@@ -111,6 +115,7 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
@@ -123,10 +128,7 @@ dependencies {
 
     implementation(libs.compose.preference.library)
 
-    // Compose Material Design extended icons. This module contains all Material icons.
-    // It is a very large dependency (almost 36MB)
     implementation(libs.androidx.material.icons.extended)
-
     implementation(libs.konfetti.compose)
 
     androidTestImplementation(platform(libs.androidx.compose.bom))
